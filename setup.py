@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="helper-fns",
+    name="helper_fns",
     version="0.1",
-    packages=find_packages(),
+    packages=['helper_fns'],
     entry_points='''
         [console_scripts]
     ''',
